@@ -1,20 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://a3ammar.github.com/mnteq/blog/2012/12/04/first-post/</loc>
+        <lastmod>2012-12-04T15:36:19+03:00</lastmod>
+    </url>
+    <url>
         <loc>http://a3ammar.github.com/mnteq/404.html</loc>
         <lastmod>2012-12-03T23:09:15+03:00</lastmod>
     </url>
     <url>
         <loc>http://a3ammar.github.com/mnteq/about/</loc>
-        <lastmod>2012-12-01T14:30:19+03:00</lastmod>
+        <lastmod>2012-12-04T18:32:37+03:00</lastmod>
     </url>
     <url>
         <loc>http://a3ammar.github.com/mnteq/blog/archives/</loc>
-        <lastmod>2012-12-02T12:03:36+03:00</lastmod>
+        <lastmod>2012-12-04T15:36:19+03:00</lastmod>
     </url>
     <url>
         <loc>http://a3ammar.github.com/mnteq/</loc>
-        <lastmod>2012-12-02T13:18:04+03:00</lastmod>
+        <lastmod>2012-12-04T15:36:19+03:00</lastmod>
     </url>
     <url>
         <loc>http://a3ammar.github.com/mnteq/logic/</loc>

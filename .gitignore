@@ -5,6 +5,7 @@
 .pygments-cache
 .dropbox
 _deploy
+Icon$'\r'
 sass.old
 source.old
 source/_stash
