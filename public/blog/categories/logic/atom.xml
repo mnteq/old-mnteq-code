@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: logic | ]]></title>
-  <link href="http://fierce-winter-2669.heroku.com//blog/categories/logic/atom.xml" rel="self"/>
-  <link href="http://fierce-winter-2669.heroku.com//"/>
-  <updated>2012-12-04T11:31:58+03:00</updated>
-  <id>http://fierce-winter-2669.heroku.com//</id>
+  <link href="http://a3ammar.github.com/mnteq/blog/categories/logic/atom.xml" rel="self"/>
+  <link href="http://a3ammar.github.com/mnteq/"/>
+  <updated>2012-12-04T13:36:26+03:00</updated>
+  <id>http://a3ammar.github.com/mnteq/</id>
   <author>
     <name><![CDATA[عمار العمار]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[more-post-1]]></title>
-    <link href="http://fierce-winter-2669.heroku.com//blog/2012/12/02/more-post-1/"/>
+    <link href="http://a3ammar.github.com/mnteq/blog/2012/12/02/more-post-1/"/>
     <updated>2012-12-02T13:16:00+03:00</updated>
-    <id>http://fierce-winter-2669.heroku.com//blog/2012/12/02/more-post-1</id>
+    <id>http://a3ammar.github.com/mnteq/blog/2012/12/02/more-post-1</id>
     <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 ]]></content>
   </entry>
