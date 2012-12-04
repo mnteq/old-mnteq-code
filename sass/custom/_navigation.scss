@@ -1,0 +1,28 @@
+body > nav {
+    fieldset[role=search]{
+        float: left;
+        margin: 2px;
+    }
+    fieldset.mobile-nav{
+        float: right;
+    }
+    @media only screen and (min-width: 550px) {
+        ul {
+            float: right;
+        }
+        ul.subscription {
+            float: left;
+            li:last-child a {
+                padding-left: 0;
+            }
+        }
+        a {
+            float: left;
+        }
+        form {
+            float: left;
+            text-align: right;
+            padding-left: 0em;
+        }
+    }
+}
