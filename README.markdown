@@ -1,6 +1,6 @@
 ## Source code for mnteq.com blog
 
-An [Octopress](octopress.org) based blog, heavily modified to support
+An [Octopress](octopress.org) based blog, modified to support
 RTL. Theme is based on [BlogTheme](https://github.com/rastersize/BlogTheme).
 
 
