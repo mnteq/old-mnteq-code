@@ -6,6 +6,7 @@
 .dropbox
 _deploy
 Icon$'\r'
+public
 sass.old
 source.old
 source/_stash
