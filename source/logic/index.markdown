@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "المنطق"
+title: "مقدمة في المنطق"
 date: 2012-03-26 07:14
 author: "عمار العمار"
 comments: true
