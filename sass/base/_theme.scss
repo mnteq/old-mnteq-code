@@ -55,8 +55,10 @@ $footer-bg-front: transparent !default;
 $footer-bg-back: transparent !default;
 $footer-border-top: darken($site-bg, 10) !default;
 $footer-border-bottom: none !default;
-$footer-link-color: darken($text-color-light, 38) !default;
-$footer-link-color-hover: darken($footer-color, 25) !default;
+/* $footer-link-color: darken($text-color-light, 38) !default; */
+/* $footer-link-color-hover: darken($footer-color, 25) !default; */
+$footer-link-color: $link-color !default;
+$footer-link-color-hover: $link-color-hover !default;
 $page-border-bottom: lighten($text-color-light, 38) !default;
 
 $article-border: $footer-border-top !default;

@@ -1,11 +1,13 @@
 $blockquote: $type-border !default;
-$sans: DroidArabicNaskh,Arial,sans-serif !default;
+$sans: 'Droid Arabic Naskh', Arial, sans-serif !default;
 $serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
-$mono: PragmataPro, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", monospace !default;
-$heading-font-family: Arial,sans-serif !default;
-$header-title-font-family:  $sans !default;
+$mono: 'Thabit', PragmataPro, Menlo, Monaco, "Andale Mono", "Lucida Console", "Courier New", monospace !default;
+$heading-font-family: 'Droid Arabic Naskh', Arial,sans-serif !default;
+$header-title-font-family: $sans !default;
 $header-subtitle-font-family: $heading-font-family !default;
 $nav-font-family: $heading-font-family !default;
+$article-header-font: 'Droid Arabic Kufi', Arial, sans-serif !default;
+
 
 $h1:	2.2em !default;
 $h2:	1.5em !default;
@@ -190,7 +192,7 @@ blockquote {
   font-size: 1em;
   line-height: 1.5em;
   padding-right: 1em;
-  border-right: 4px solid rgba($text-color-light, .5);
+  border-right: 3px solid rgba($text-color-light, .5);
   cite {
       font-style: normal;
       a { color: $text-color-light !important; word-wrap: break-word; }
@@ -208,24 +210,24 @@ blockquote {
 }
 
 
-/* Set the font to Droid Arabic Naskh */
-@font-face{
-    font-family: "DroidArabicNaskh";
-    src: url("/assets/fonts/droidnaskh-regular.eot");
-    src: local("DroidArabicNaskh"), url("/assets/fonts/droidnaskh-regular.ttf");
-    src: url("/assets/fonts/droidnaskh-regular.eot?#iefix") format('embedded-opentype'),
-    url("/assets/fonts/droidnaskh-regular.woff") format('woff'),
-    url("/assets/fonts/droidnaskh-regular.ttf") format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face{
-    font-family: "DroidArabicNaskh";
-    src:url("/assets/fonts/droidnaskh-bold.eot");
-    src: local("DroidArabicNaskh"), url("/assets/fonts/droidnaskh-bold.ttf");
-    src:url("/assets/fonts/droidnaskh-bold.eot?#iefix") format('embedded-opentype'),
-    url("/assets/fonts/droidnaskh-bold.woff") format('woff'),
-    url("/assets/fonts/droidnaskh-bold.ttf") format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
+/* /\* Set the font to Droid Arabic Naskh *\/
+ * @font-face{
+ *     font-family: "DroidArabicNaskh";
+ *     src: url("/assets/fonts/droidnaskh-regular.eot");
+ *     src: local("DroidArabicNaskh"), url("/assets/fonts/droidnaskh-regular.ttf");
+ *     src: url("/assets/fonts/droidnaskh-regular.eot?#iefix") format('embedded-opentype'),
+ *     url("/assets/fonts/droidnaskh-regular.woff") format('woff'),
+ *     url("/assets/fonts/droidnaskh-regular.ttf") format('truetype');
+ *     font-weight: normal;
+ *     font-style: normal;
+ * }
+ * @font-face{
+ *     font-family: "DroidArabicNaskh";
+ *     src:url("/assets/fonts/droidnaskh-bold.eot");
+ *     src: local("DroidArabicNaskh"), url("/assets/fonts/droidnaskh-bold.ttf");
+ *     src:url("/assets/fonts/droidnaskh-bold.eot?#iefix") format('embedded-opentype'),
+ *     url("/assets/fonts/droidnaskh-bold.woff") format('woff'),
+ *     url("/assets/fonts/droidnaskh-bold.ttf") format('truetype');
+ *     font-weight: bold;
+ *     font-style: normal;
+ * } */
