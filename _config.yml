@@ -101,3 +101,6 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# Gauges
+gauges_tracking_id: 50cb34c5613f5d406a000003
