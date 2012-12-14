@@ -52,11 +52,13 @@ body > nav {
             font-family: $article-header-font;
 
             @media only screen and (min-width: 320px) {
-                width: 162px;
-                font-size: 19px;
+                font-family: Arial;
+                width: 143px;
+                font-size: 18px;
                 font-weight: bold; 
             }
             @media only screen and (min-width: 550px) {
+                font-family: $article-header-font;
                 width: 210px;
                 font-size: 24px;
                 font-weight: normal;
