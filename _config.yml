@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://a3ammar.github.com
+url: http://mnteq.com
 title: مدونة المنطق
 subtitle: المنطق
 author: عمار العمار
 simple_search:
-description:
+description: مدونة تهتم بالمنطق والتفكير النقدي، أكتب بشكل دوري عن هذه المواضيع وعن المغالطات المنطقية التي يقع بها الناس والإعلام
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
