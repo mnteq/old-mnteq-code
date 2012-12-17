@@ -17,6 +17,6 @@ footer: false
 
 اسمي [عمار العمار](http://twitter.com/a3ammar) أكتب هذه المدونة في وقت فراغي، أشكر [أحمد الوابلي](http://twitter.com/ahmadalwably) و [مازن الطامي](http://twitter.com/xternl) على مساعدتي في إنشاء وكتابة هذه المدونة.
 
-للتعليق يمكنك التواصل معي عبر [تويتر](http://twitter.com/mnteq)، أو إن لم تكن الـ١٤٠ حرف كافية يمكنك إرسال إيميل إلكتروني على هذا البريد [feedback@mnteq.com](mailto:feedback@mnteq.com).
+للتعليق يمكنك التواصل معي عبر [تويتر](http://twitter.com/mnteq)، أو إن لم تكن الـ١٤٠ حرف كافية يمكنك إرسال رسالة إلكتروني على هذا البريد [feedback@mnteq.com](mailto:feedback@mnteq.com).
 
 يمكنك تحميل مصدر هذه المدونة من [github](https://github.com/a3ammar/mnteq).
