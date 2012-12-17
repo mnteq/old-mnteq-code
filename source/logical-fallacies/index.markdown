@@ -42,7 +42,7 @@ footer: true
 مازن لايملك أي إنتقاد هادف لحجة صالح، لذلك إستخدم حجة التحريف للهجوم على صالح وجعل حجتة تبدو أقوى من حجة صالح.
 
 
-## حدث بعده، إذاً هو سببة				 {#post-hoc}
+## حدث بعده، إذاً هو سببه				 {#post-hoc}
 
 #### Post hoc ergo propter hoc
 
@@ -226,6 +226,13 @@ footer: true
 > أنجح محافظ على الإطلاق هو المحافظ مازن لأنه أفضل محافظ بتاريخ المدينة.
 
 بمعنى آخر، سبب نجاح مازن هو أنه ناجح. عادتاً ما يصاغ الإستنتاج بطريقة آخرى ويقدم كمعطى قد لايبدو مشابه للإستنتاج من الوهله الأولى.
+
+---
+مصادر (للأسف إنجليزية):
+
+* [Your Logical Fallacy Is](http://yourlogicalfallacyis.com)
+* [How to Argue](http://www.theness.com/index.php/how-to-argue/)
+* [List of Logical Fallacies](http://en.wikipedia.org/wiki/List_of_fallacies)
 
 
 [2]: /logic#premise
