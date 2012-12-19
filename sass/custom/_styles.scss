@@ -93,6 +93,9 @@ article {
         @media only screen and (min-width: 550px) {
             font-size: 30px;
         }
+        a, a:visited {
+            color: black;
+        }
     }
     h4 {
         margin-bottom: 0.4em;
@@ -121,7 +124,6 @@ body > footer {
     direction: rtl;
     
 }
-
 
 
 blockquote {
@@ -158,3 +160,4 @@ p.error-explanation {
 a {
     text-decoration: none;
 }
+
