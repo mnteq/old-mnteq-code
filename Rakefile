@@ -105,10 +105,12 @@ task :new_post, :title do |t, args|
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-    post.puts "comments: true"
+    post.puts "comments: false"
     post.puts "categories: "
+    post.puts "published: false"
     post.puts "---"
-  end
+    end
+    `open -a "Markdown Pro" #{filename}` # open file in markdown pro.
 end
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")

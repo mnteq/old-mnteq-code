@@ -88,13 +88,13 @@ article {
         font-weight: normal;
         margin-bottom: 0.4em;
         @media only screen and (min-width: 320px) {
-            font-size: 20px;
+            font-size: 25px;
         }
         @media only screen and (min-width: 550px) {
-            font-size: 30px;
+            font-size: 35px;
         }
         a, a:visited {
-            color: black;
+            color: black
         }
     }
     h4 {
@@ -103,6 +103,9 @@ article {
     header {
         font-weight: bold;
         margin-bottom: 1.5em;
+    }
+    .footnotes > ol > li > p {
+        font-size: 15px;
     }
 }
 
@@ -161,3 +164,6 @@ a {
     text-decoration: none;
 }
 
+sup {
+    font-weight: bold;
+}
