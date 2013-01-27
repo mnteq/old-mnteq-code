@@ -19,7 +19,7 @@ published: true
 
 [{% img http://farm5.staticflickr.com/4068/4681816734_615888029b_z.jpg 600 300 %}](http://www.flickr.com/photos/errantfool/4681816734/sizes/z/)
 
-[{% img http://upload.wikimedia.org/wikipedia/commons/9/91/Apache_head_in_rocks%2C_Ebihens%2C_France.jpg 600 300 %}](http://en.wikipedia.org/wiki/File:Apache_head_in_rocks,_Ebihens,_France.jpg)
+[{% img http://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Apache_head_in_rocks%2C_Ebihens%2C_France.jpg/640px-Apache_head_in_rocks%2C_Ebihens%2C_France.jpg 600 300 %}](http://en.wikipedia.org/wiki/File:Apache_head_in_rocks,_Ebihens,_France.jpg)
 
 
 لكن عند استخدام الاستسقاط كإثبات لشيء ما، أو كونه معجزات إلهية، عندها يجب أن نقف ضد هذه الاستخدامات، مثلاً:

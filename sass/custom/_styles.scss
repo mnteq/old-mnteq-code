@@ -72,7 +72,15 @@ body > nav {
 article {
     footer p.nav a { color: #888; }
     header p.meta { font-size: 14px; }
-    p { font-size: 18px; }
+    p {
+        @media only screen and (min-width: 550px) {
+            font-size: 20px;
+        }
+        @media only screen and (min-width: 800px) {
+            font-size: 18px;
+            font-weight: normal;
+        }
+    }
     h1 {
         font-family: $article-header-font;
         font-weight: normal;

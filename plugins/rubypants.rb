@@ -300,9 +300,9 @@ class RubyPants < String
             elsif t == '"'
               # Special case: single-character " token
               if prev_token_last_char =~ /\S/
-                t = "&#8221;"
-              else
                 t = "&#8220;"
+              else
+                t = "&#8221;"
               end
             else
               # Normal case:
@@ -381,7 +381,7 @@ class RubyPants < String
   # translated into HTML curly quote entities.
   #
   def educate_backticks(str)
-    str.gsub("``", '&#8220;').gsub("''", '&#8221;')
+    str.gsub("``", '&#8221;').gsub("''", '&#8220;')
   end
 
   # Return the string, with "<tt>`backticks'</tt>"-style single quotes
@@ -406,7 +406,7 @@ class RubyPants < String
 
     # Special case for double sets of quotes, e.g.:
     #   <p>He said, "'Quoted' words in a larger quote."</p>
-    str.gsub!(/"'(?=\w)/, '&#8220;&#8216;')
+    str.gsub!(/"'(?=\w)/, '&#8221;&#8216;')
     str.gsub!(/'"(?=\w)/, '&#8216;&#8220;')
 
     # Special case for decade abbreviations (the '80s):
@@ -426,12 +426,12 @@ class RubyPants < String
 
     # Get most opening double quotes:
     str.gsub!(/(\s|&nbsp;|--|&[mn]dash;|#{dec_dashes}|&#x201[34];)"(?=\w)/,
-             '\1&#8220;')
+             '\1&#8221;')
     # Double closing quotes:
-    str.gsub!(/(#{close_class})"/, '\1&#8221;')
+    str.gsub!(/(#{close_class})"/, '\1&#8220;')
     str.gsub!(/"(\s|s\b|$)/, '&#8221;\1')
     # Any remaining quotes should be opening ones:
-    str.gsub!(/"/, '&#8220;')
+    str.gsub!(/"/, '&#8221;')
 
     str
   end
@@ -449,8 +449,8 @@ class RubyPants < String
       gsub(/&#8216;/, "'").      # open single quote
       gsub(/&#8217;/, "'").      # close single quote
 
-      gsub(/&#8220;/, '"').      # open double quote
-      gsub(/&#8221;/, '"').      # close double quote
+      gsub(/&#8221;/, '"').      # open double quote
+      gsub(/&#8220;/, '"').      # close double quote
 
       gsub(/&#8230;/, '...')     # ellipsis
   end
