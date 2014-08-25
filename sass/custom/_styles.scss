@@ -18,7 +18,7 @@ body > header {
     border-left: 4px solid #000;
     font-weight: normal;
     @media only screen and (min-width: 320px) {
-        font-size: 0.75em;
+        font-size: 0.70em;
         line-height: 4.3em;
         padding-right: 6px;
         padding-left: 6px;
@@ -73,8 +73,11 @@ article {
     footer p.nav a { color: #888; }
     header p.meta { font-size: 14px; }
     p {
+        @media only screen and (min-width: 320px) {
+            font-size: 16px;
+        }
         @media only screen and (min-width: 550px) {
-            font-size: 20px;
+            font-size: 18px;
         }
         @media only screen and (min-width: 800px) {
             font-size: 18px;

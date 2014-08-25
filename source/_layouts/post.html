@@ -19,11 +19,10 @@ sidebar: false
     <p class="meta nav">
       {% if page.previous.url %}
         <a class="basic-alignment left" href="{{page.previous.url}}"
-      title="Previous Post: {{page.previous.title}}">{{page.previous.title}} &raquo;</a>
+      title="السابق: {{page.previous.title}}">{{page.previous.title}} &larr;</a>
       {% endif %}
       {% if page.next.url %}
-        <a class="basic-alignment right" href="{{page.next.url}}" title="next
-      Post: {{page.next.title}}">&laquo; {{page.next.title}}</a>
+        <a class="basic-alignment right" href="{{page.next.url}}" title="التالي: {{page.next.title}}">&rarr; {{page.next.title}}</a>
       {% endif %}
     </p>
   </footer>
